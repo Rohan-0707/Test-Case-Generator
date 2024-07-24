@@ -17,7 +17,7 @@ This Streamlit application leverages the power of the LLaMA 2 language model to 
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)rohan-0707/Test-Case-Generator.git
+   git clone https://github.com/rohan-0707/Test-Case-Generator.git
    ```
 
 2. **Create a Virtual Environment:**
@@ -59,7 +59,39 @@ This Streamlit application leverages the power of the LLaMA 2 language model to 
 ## Example Output
 
 ```
-# (Example test cases would be displayed here)
+Here's what you might get as output after running this code (assuming topic = "login page", count = "2", and platform = "website"):
+
+Test Case ID: TC_LP_01
+Preconditions:
+    - The user is on the website's homepage.
+    - The login page is accessible.
+Input Data:
+    - Valid username and password.
+Steps to be Executed:
+    1. Click on the "Login" button.
+    2. Enter the valid username and password.
+    3. Click on the "Submit" button.
+Expected Output:
+    - The user should be successfully logged in and redirected to their account page.
+Actual Output:
+    - The user is successfully logged in and redirected to their account page.
+Remark: Pass
+
+Test Case ID: TC_LP_02
+Preconditions:
+    - The user is on the website's homepage.
+    - The login page is accessible.
+Input Data:
+    - Invalid username and password.
+Steps to be Executed:
+    1. Click on the "Login" button.
+    2. Enter the invalid username and password.
+    3. Click on the "Submit" button.
+Expected Output:
+    - An error message should be displayed indicating invalid credentials.
+Actual Output:
+    - An error message is displayed indicating invalid credentials.
+Remark: Pass
 ```
 
 ## Technologies Used
@@ -71,7 +103,7 @@ This Streamlit application leverages the power of the LLaMA 2 language model to 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
 **Additional Notes:**
