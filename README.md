@@ -9,6 +9,7 @@ This Streamlit application leverages the power of the LLaMA 2 language model to 
 * **Customizable:**  Control the number of test cases generated to fit your specific needs.
 * **Versatile:** Supports test case creation for Android applications, websites, software programs, and web applications.
 * **User-Friendly:** Features a simple and intuitive Streamlit interface for inputting the topic and platform of your application.
+```
 
 ## How to Use
 
@@ -16,7 +17,7 @@ This Streamlit application leverages the power of the LLaMA 2 language model to 
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)<your_username>/<your_repository_name>.git
+   git clone [https://github.com/](https://github.com/)rohan-0707/Test-Case-Generator.git
    ```
 
 2. **Create a Virtual Environment:**
